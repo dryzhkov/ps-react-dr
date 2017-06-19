@@ -1,1 +1,1 @@
-export {default} from './EyeIcon.js';
+export {default} from './EyeIcon';
