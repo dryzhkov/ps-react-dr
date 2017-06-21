@@ -92,4 +92,4 @@ yarn-error.log*
 launch.json
 
 # react renderer snapshots
-**/__snapshots__
+# **/__snapshots__
