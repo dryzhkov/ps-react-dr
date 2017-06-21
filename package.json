@@ -2,6 +2,10 @@
   "name": "ps-react-dr",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://dryzhkov.github.io/ps-react-dr/",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "highlight.js": "^9.10.0",
     "react": "^15.6.1",
@@ -57,8 +61,10 @@
     "start:docs": "node scripts/start.js",
     "gen:docs": "node scripts/generateComponentData.js",
     "gen:docs-watch": "npm run gen:docs -- --watch",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "build:docs": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy:docs":"npm run build:docs",
+    "deploy:docs":"gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
