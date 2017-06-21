@@ -90,3 +90,6 @@ yarn-error.log*
 
 # VSCode launch configuration
 launch.json
+
+# react renderer snapshots
+**/__snapshots__
