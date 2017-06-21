@@ -11,4 +11,4 @@ npm install ps-react-dr
 I'll add tips for common problems and address any known course issues here.
 
 ## Docs
-[Component documentation](http://coryhouse.github.io/ps-react)
+[Component documentation](http://dryzhkov.github.io/ps-react-dr)
