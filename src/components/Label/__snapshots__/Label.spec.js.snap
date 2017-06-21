@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label shows red asterisk when required is enabled 1`] = `
+<label
+  htmlFor="test"
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+>
+  test
+   
+  <span
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+     *
+  </span>
+</label>
+`;
